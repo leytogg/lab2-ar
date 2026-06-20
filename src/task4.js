@@ -121,7 +121,7 @@ function onSelect() {
         model.quaternion.setFromRotationMatrix(reticle.matrix);
 
         // Масштаб моделі
-        model.scale.set(0.25, 0.25, 0.25);
+        model.scale.set(0.01, 0.01, 0.01);
 
         // Налаштування матеріалів
         model.traverse((child) => {
