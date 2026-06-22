@@ -1,2 +1,2 @@
 import './style.css'
-import './task2.js'
+import './task1.js'
